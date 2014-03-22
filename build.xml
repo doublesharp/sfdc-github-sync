@@ -1,0 +1,23 @@
+<project name="Salesforce Ant tasks" default="compile" basedir="." xmlns:sf="antlib:com.salesforce">
+	<property file="build.properties"/>
+	<property environment="env"/>
+
+	<!-- Compile the contents of our GitHub repository -->
+	<target name="compile">
+		<sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="${git.dir}" runAllTests="false" />
+	</target>
+
+	<!-- Get the contents of our Saleforce environment based on the package.xml from GitHub -->
+	<target name="retrieveUnpackaged">
+		<!-- Make sure the environment is clean -->
+		<delete dir="unpackaged" failonerror="false"/>
+		<mkdir dir="unpackaged"/>
+		<!-- Retrieve the contents into another directory -->
+		<sf:retrieve username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" retrieveTarget="unpackaged" unpackaged="${git.dir}/package.xml"/>
+	</target>
+
+	<!-- Remove code in the destructiveChanges subdirectory, populated by destructiveChanges.py -->
+	<target name="undeployCode">
+		<sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="${sf.destructiveChanges}"/>
+	</target>
+</project>

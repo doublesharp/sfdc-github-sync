@@ -1,0 +1,143 @@
+{
+    "labels": {
+        "labels" : "CustomLabels"
+    }, 
+    "staticresources": {
+        "resource" : "StaticResource"
+    }, 
+    "scontrols": {
+        "scf" : "Scontrol"
+    }, 
+    "components": {
+        "component" : "ApexComponent"
+    }, 
+    "pages": {
+        "page" : "ApexPage"
+    }, 
+    "queues": {
+        "queue" : "Queue"
+    }, 
+    "objects": {
+        "object" : "CustomObject"
+    }, 
+    "reportTypes": {
+        "reportType" : "ReportType"
+    }, 
+    "reports": {
+        "report" : "Report"
+    }, 
+    "dashboards": {
+        "dashboard" : "Dashboard"
+    }, 
+    "analyticSnapshots": {
+        "snapshot" : "AnalyticSnapshot"
+    }, 
+    "layouts": {
+        "layout" : "Layout"
+    }, 
+    "documents": {
+        "*" : "Document"
+    }, 
+    "weblinks": {
+        "weblink" : "CustomPageWebLink"
+    }, 
+    "tabs": {
+        "tab" : "CustomTab"
+    }, 
+    "customApplicationComponents": {
+        "customApplicationComponent" : "CustomApplicationComponent"
+    }, 
+    "applications": {
+        "app" : "CustomApplication"
+    }, 
+    "letterhead": {
+        "letter" : "Letterhead"
+    }, 
+    "email": {
+        "email" : "EmailTemplate"
+    }, 
+    "workflows": {
+        "workflow" : "Workflow"
+    }, 
+    "assignmentRules": {
+        "assignmentRules" : "AssignmentRules"
+    }, 
+    "autoResponseRules": {
+        "autoResponseRules" : "AutoResponseRules"
+    }, 
+    "escalationRules": {
+        "escalationRules" : "EscalationRules"
+    }, 
+    "roles": {
+        "role" : "Role"
+    }, 
+    "groups": {
+        "group" : "Group"
+    }, 
+    "homePageComponents": {
+        "homePageComponent" : "HomePageComponent"
+    }, 
+    "homePageLayouts": {
+        "homePageLayout" : "HomePageLayout"
+    }, 
+    "objectTranslations": {
+        "objectTranslation" : "CustomObjectTranslation"
+    }, 
+    "flows": {
+        "flow" : "Flow"
+    }, 
+    "classes": {
+        "cls" : "ApexClass"
+    }, 
+    "triggers": {
+        "trigger" : "ApexTrigger"
+    }, 
+    "profiles": {
+        "profile" : "Profile"
+    }, 
+    "permissionsets": {
+        "permissionset" : "PermissionSet"
+    }, 
+    "datacategorygroups": {
+        "datacategorygroup" : "DataCategoryGroup"
+    }, 
+    "remoteSiteSettings": {
+        "remoteSite" : "RemoteSiteSetting"
+    }, 
+    "authproviders": {
+        "authprovider" : "AuthProvider"
+    }, 
+    "sites": {
+        "site" : "CustomSite"
+    }, 
+    "leadSharingRules": {
+        "sharingRules" : "LeadSharingRules"
+    }, 
+    "campaignSharingRules": {
+        "sharingRules" : "CampaignSharingRules"
+    }, 
+    "caseSharingRules": {
+        "sharingRules" : "CaseSharingRules"
+    }, 
+    "contactSharingRules": {
+        "sharingRules" : "ContactSharingRules"
+    }, 
+    "opportunitySharingRules": {
+        "sharingRules" : "OpportunitySharingRules"
+    }, 
+    "accountSharingRules": {
+        "sharingRules" : "AccountSharingRules"
+    }, 
+    "customObjectSharingRules": {
+        "sharingRules" : "CustomObjectSharingRules"
+    }, 
+    "communities": {
+        "community" : "Community"
+    }, 
+    "callCenters": {
+        "callCenter" : "CallCenter"
+    }, 
+    "settings": {
+        "settings" : "Settings"
+    }
+}
